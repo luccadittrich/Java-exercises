@@ -1,8 +1,10 @@
+package exercises;
 import java.util.Scanner;
 
 public class age {
     public static void main(String[] args) {
         // Perguntar o ano
+
         System.out.println("Digite o ano: ");
         int currentYear = new Scanner(System.in).nextInt();
         // em que ano nasceu?
