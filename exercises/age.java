@@ -10,7 +10,6 @@ public class age {
         // em que ano nasceu?
         System.out.println("Digite o ano de nascimento: ");
         int birthYear = new Scanner(System.in).nextInt();
-
         // calcular a idade
         int yearsOld = currentYear - birthYear;
 

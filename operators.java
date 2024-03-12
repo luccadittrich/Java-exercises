@@ -35,6 +35,10 @@ public class operators {
 
         System.out.println(!(x == 1)); // false
         System.out.println(!(x == 2)); // true
-
+        int i = 1;
+        i++;
+        System.out.println(i++);
+        System.out.println(i++);
+        System.out.println(i);
     }
 }
