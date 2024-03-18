@@ -32,7 +32,6 @@ public class ex4 {
                 nulos++;
             }
         }
-        input.close();
         i--;
 
         System.out.println();
@@ -49,6 +48,7 @@ public class ex4 {
         } else {
             System.out.println("Empate");
         }
+        input.close();
 
     }
 }
