@@ -1,3 +1,4 @@
+package aula;
 import java.util.Scanner;
 
 public class Media {
