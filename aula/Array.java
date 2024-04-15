@@ -1,4 +1,6 @@
-package aula;
+// package aula;
+import java.util.ArrayList;
+
 public class Array {
     public static void main(String[] args) {
 
@@ -14,5 +16,13 @@ public class Array {
         for (int i = 0; i < beatles.length; i++) {
             System.out.println("nome " + beatles[i]);
         }
+
+
+        ArrayList<String> oneDirection = new ArrayList<>();
+
+        oneDirection.add("Harry Styles");
+        oneDirection.add("Niall Horan ");
+        oneDirection.add("Zayn Malik");
+        oneDirection.add("Lyan");
     }
 }
