@@ -6,12 +6,15 @@ public class TesteTurma {
         String msg2 = "";
 
         for (int i = 0; i < 2; i++) {
-            String nome = JOptionPane.showInputDialog("Nome da turma");
+            String ovo = JOptionPane.showInputDialog("Nome da turma");
+            String erro = JOptionPane.blabla();
+
+
             String curso = JOptionPane.showInputDialog("Nome do curso");
             int quantAlunos = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de alunos"));
             int serie = Integer.parseInt(JOptionPane.showInputDialog("Serie"));
 
-            Turma turma = new Turma(nome, curso, quantAlunos, serie);
+            Turma turma = new Turma(ovo, curso, quantAlunos, serie);
             String msg = "Nome: " + turma.getNome() + "\nCurso: " + turma.getCurso() + "\nAlunos: " + turma.getQuant() + "\nSérie: " + turma.getSerie();
 
             if (i == 0) {
