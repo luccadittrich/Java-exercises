@@ -1,4 +1,4 @@
-package calvo;
+package aulacalveti;
 //1) Crie um algoritmo que leia três palavras, separadamente, e as apresente na tela
 // na ordem contrária em que foram digitadas, separadas por espaço;
 
@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class calvo {
+public class Calvo {
     public static void main(String[] args) throws IOException {
         // Criando um BufferedReader para ler entrada do teclado
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -24,5 +24,9 @@ public class calvo {
         }
 
         reader.close();
+    }
+
+    public String ok(){
+        return "ok";
     }
 }

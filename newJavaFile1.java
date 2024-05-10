@@ -1,4 +1,4 @@
-public class teste {
+public class newJavaFile1 {
     public static void main(String[] args) {
         System.out.println("'ok'");
         System.out.println("'ok'");
@@ -8,7 +8,6 @@ public class teste {
         System.out.println("'ok'");
         System.out.println("'ok'");
         System.out.println("'ok'");
-        System.out.println("'☕☕'");
         System.out.println("'ok'");
         System.out.println("'ok'");
         System.out.println("'ok'");
@@ -16,8 +15,6 @@ public class teste {
         System.out.println("'ok'");
         System.out.println("'ok'");
         System.out.println("'ok'");
-        int xaa = 1;
-        String xy = "222";
-        int xx = xaa;
+        System.out.println("'ok'");
     }
 }
