@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "Main", // Nome da sua classe Main
+            "classpath": [
+                "${workspaceFolder}/lib/mysql-connector-j-8.4.0.jar" // Caminho para o arquivo .jar na pasta lib
+            ]
+        }
+    ]
+ }
